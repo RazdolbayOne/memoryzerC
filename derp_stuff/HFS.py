@@ -32,10 +32,10 @@ class DH_Endpoint(object):
 
 
 message = "This is a very secret message!!!"
-s_public = 25626781
-s_private = 211200
-m_public = 24858934
-m_private = 250299
+s_public = 197
+s_private = 199
+m_public = 154
+m_private = 144
 Sadat = DH_Endpoint(s_public, m_public, s_private)
 Michael = DH_Endpoint(s_public, m_public, m_private)
 
