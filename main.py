@@ -39,7 +39,9 @@ def main():
         print("to get out of press q key")
         # TODO write part where shows up in console stuff
         while True:
+            break
             pass
+
 
     return 0
 
