@@ -1,4 +1,3 @@
-
 # TODO FIGURE OUT WHY ON THIS ALG DO NOT WORKS WITH LOWERCASE LATTERS
 def shifr(num, mul_times, modul):
     mul_iterations = mul_times
@@ -7,18 +6,16 @@ def shifr(num, mul_times, modul):
         val = val % modul
         val *= num
         mul_iterations -= 1
-    return val%modul
-
-
+    return val % modul
 
 
 public_key = 5
 char_key = 67
 private_key = 29
 number = 21
-a_num=13
-b_num=7
-modulec = a_num*b_num
+a_num = 13
+b_num = 7
+modulec = a_num * b_num
 
 slovo = "i ANTI SHIFR WORKS!! realy"
 shifrovan_list = []
