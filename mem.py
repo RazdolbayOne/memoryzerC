@@ -17,9 +17,9 @@ def mem_word(show_list, back_list):
         i += 1
 
 
-chinese_pinyin = ["Zǎoshang","Shàngwǔ","Zhōngwǔ","Xiàwǔ","Wǎnshàng"] #["Xiàmiàn", "Shàngmiàn", "Lǐ", "Qiánmiàn", "Hòumiàn"]
-chinese_chars = ["早上","上午","中午","下午","晚上"] #["下面", "上面", "里", "前面", "后面"]
-english = ["morning","forenoon","nooon","afternoon","evening"] #["below", "above", "in", "front", "behind"]
+chinese_pinyin =  ["Chuáng","Guìzi","Shūjià","Zhuōzi","Yǐzi","Dēng","Dìtǎn","Zhàopiàn","Bēizi","Fángjiān"] #["Zǎoshang","Shàngwǔ","Zhōngwǔ","Xiàwǔ","Wǎnshàng"] #["Xiàmiàn", "Shàngmiàn", "Lǐ", "Qiánmiàn", "Hòumiàn"]
+chinese_chars =  ["床","柜子","书架","桌子","椅子","灯","地毯","照片","杯子","房间"]  #["早上","上午","中午","下午","晚上"] #["下面", "上面", "里", "前面", "后面"]
+english = ["bed","cabinet","bookshelves","table","chair","lamp","carpet","photo","cup","room"] #["morning","forenoon","nooon","afternoon","evening"] #["below", "above", "in", "front", "behind"]
 combination = []
 for i in range(len(chinese_pinyin)):
     combination.append(chinese_chars[i] + chinese_pinyin[i])
