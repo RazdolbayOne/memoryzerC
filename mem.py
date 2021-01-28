@@ -17,9 +17,9 @@ def mem_word(show_list, back_list):
         i += 1
 
 
-chinese_pinyin = ["Xiàmiàn", "Shàngmiàn", "Lǐ", "Qiánmiàn", "Hòumiàn"]
-chinese_chars = ["下面", "上面", "里", "前面", "后面"]
-english = ["below", "above", "in", "front", "behind"]
+chinese_pinyin = ["Zǎoshang","Shàngwǔ","Zhōngwǔ","Xiàwǔ","Wǎnshàng"] #["Xiàmiàn", "Shàngmiàn", "Lǐ", "Qiánmiàn", "Hòumiàn"]
+chinese_chars = ["早上","上午","中午","下午","晚上"] #["下面", "上面", "里", "前面", "后面"]
+english = ["morning","forenoon","nooon","afternoon","evening"] #["below", "above", "in", "front", "behind"]
 combination = []
 for i in range(len(chinese_pinyin)):
     combination.append(chinese_chars[i] + chinese_pinyin[i])
